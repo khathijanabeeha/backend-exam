@@ -1,0 +1,18 @@
+{
+  "name": "backened-exam",
+  "version": "1.0.0",
+  "description": "task 1. \r Add new workout entry post.\r deploy an api taht allows an authenticated users to log a new workout. endpoint API/POST/workouts\r accept date/exercise/duration (in minutes), calories burned and an optional notes in the request body.\r automatically generate a unique id for each workout.\r store the workout in data/workouts.json\r only authenticated users can submit the workouts(use a simple API keys in headers)\r validate date,exercise and duration are provided.\r reject duplicate workouts with the same exercise and date for the same user.Expected output:The newly added workout appears in the workout log without page reload.API returns meaningful error message for invalid requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
